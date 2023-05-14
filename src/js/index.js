@@ -3,6 +3,9 @@ const body = document.querySelector("body");
 const temaImg = document.getElementById("tema-Img");
 btnAltTema.addEventListener("click", alterarTema);
 
+if(horas > 18 ||horas < 6 ){
+  alterarTema()
+}
 
 function alterarTema() {
     const modoEscuroAtv = body.classList.contains("modo-escuro");
