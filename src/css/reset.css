@@ -1,13 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333333;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
+}
+    
+[rgb]{
+font-family: "Roboto",sans-serif, arial;
+animation: ani-rgb 5s infinite;
+transition: all 1s ease-out;
 }
 
-[rgb] {
-    transition: all 1s ease-out;
+@keyframes ani-rgb{
+  0%{
+    border-color: red;
+    color: red;
+  }
+  14%{
+    border-color: blue;
+    color: blue;
+  }
+  28%{
+    border-color: green;
+    color: green;
+  }
+  42%{
+    border-color: yellow;
+    color: yellow;
+  }
+  56%{
+    border-color: orange;
+    color: orange;
+  }
+  70%{
+    border-color: gray;
+    color: gray;
+  }
+  84%{
+    border-color: white;
+    color: white;
+  }
+  98%{
+    border-color: purple;
+    color: purple;
+  }
 }
