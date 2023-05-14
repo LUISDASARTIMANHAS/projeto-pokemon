@@ -7,3 +7,7 @@
 ul{
     list-style: none;
 }
+
+[rgb] {
+    transition: all 1s ease-out;
+}
